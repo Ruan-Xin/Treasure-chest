@@ -30,7 +30,6 @@ def get_char(r,g,b,alpha = 256):
     return ascii_char[int(gray/unit)]
 
 if __name__ == '__main__':
-
     im = Image.open(IMG)
     im = im.resize((WIDTH,HEIGHT), Image.NEAREST)
 
